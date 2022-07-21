@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Web Platform</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../../atvjavascript/../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="LOGO.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Calculadora</span>
+                    <span class="profession">Massa corporal</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="../../atvjavascript/../index.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Inicio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="../../atvjavascript/../sobre/sobre.html">
+                            <i class='bx bx-info-circle icon'></i>
+                            <span class="text nav-text">Sobre</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="../../atvjavascript/../imc/imc.html">
+                            <i class='bx bx-calculator icon'></i>
+                            <span class="text nav-text">IMC</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="../../atvjavascript/../peso-ideal/peso-ideal.html">
+                            <i class='bx bxs-face icon'></i>
+                            <span class="text nav-text">Peso Ideal</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="../../atvjavascript/javascript.html">
+                            <i class='bx bxs-file-js icon'></i>
+                            <span class="text nav-text">JavaScript</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <main>
+            <div class="text2">
+                <button onclick="contar()" id="botao">Clique para contar de 100 a 120 (mostrando apenas os pares)</button>
+                <div class="calc">
+                    <section id="saida">
+                    </section>    
+                </div>
+            </div>
+        </main>
+    </section>
+
+
+    <script src="atv4.js"></script>
+    <script src="atv.js"></script>
+
+</body>
+</html>
